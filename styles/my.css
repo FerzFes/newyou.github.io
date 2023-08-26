@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+body {
+    box-shadow: 7px -10px 5px 0px #000; 
+    background: linear-gradient(86deg, #000000 0%, #331010 100%);
+    font-family: Roboto, serif;
+}
+p{
+    color: #ffa4a4;
+}
+.nav-link {
+    color: aquamarine
+}
+
+.navbar-nav .nav-link.active {
+    color:rgb(194, 114, 57);
+}
+
+.navbar-brand img {
+    width: 40px
+}
+
+.navbar-toggler{
+    background-color: rgb(99, 94, 89);
+}
+
+.col:hover{
+    background-color: rgb(214, 213, 213);
+}
+
+.btn{
+    background-color: rgb(173, 142, 37);
+    
+}
+
+.card>img{
+   height: 200px;
+}
+.card{  
+    background: linear-gradient(280deg, #2b0f0f 0%, #331010 100%);
+    height: 100%;
+    color:#ffa4a4
+}
+#p{
+    color:burlywood;
+    background: linear-gradient(280deg, #2b0f0f 0%, #331010 100%);
+   
+}
+
+.card a{
+    text-decoration: none;
+    color:#ffa4a4;
+}
+.text,
+.footer-text,
+.btn-primary{
+    color: #ffa4a4;
+    margin: auto auto;
+}
+
+
+
+footer{
+    background: linear-gradient(280deg, #290101 0%, #331010 100%);
+    padding-top: 5px;
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trim{
+    animation: myAnim 20s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+.btn-primary{
+    background-color:#3310;
+    color: rgb(80, 153, 202);
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
